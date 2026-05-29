@@ -39,7 +39,7 @@ Esta é a maneira mais simples e rápida de rodar toda a aplicação (Banco de D
 3. As migrations serão aplicadas automaticamente no banco de dados durante a inicialização do container da API.
 4. Acesse o sistema em seu navegador:
    - **Frontend**: [http://localhost:3000](http://localhost:3000)
-   - **API (Swagger/Endpoints)**: [http://localhost:5265/api/produtos](http://localhost:5265/api/produtos)
+   - **API (OpenApi/Endpoints)**: [http://localhost:5265/scalar/v1]
 
 Para parar os containers e limpar os volumes:
 ```bash
@@ -71,8 +71,8 @@ Certifique-se de que o PostgreSQL está rodando localmente na porta padrão `543
    dotnet run
    ```
    A API estará rodando por padrão em:
-   - HTTP: `http://localhost:5265`
-   - HTTPS: `https://localhost:7050`
+   - HTTP: `http://localhost:5265/scalar`
+   - HTTPS: `https://localhost:7050/scalar`
 
 ### 3. Executando o Frontend (Nuxt 3)
 1. Acesse o diretório do frontend:

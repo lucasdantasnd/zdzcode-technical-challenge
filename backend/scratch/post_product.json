@@ -1,6 +1,12 @@
-{
-  "nome": "Smartphone Premium",
-  "descricao": "Celular topo de linha com câmera incrível",
-  "preco": 4999.99,
-  "categoriaId": 1
-}
+[
+  {
+    "nome": "iPhone 17 Pro",
+    "descricao": "Seu novo iPhone. Mais pessoal do que nunca.",
+    "preco": 11499
+  },
+  {
+    "nome": "Capa de tecido TechWoven com MagSafe para iPhone 17 Pro",
+    "descricao": "Criada pela Apple, a capa de tecido TechWoven com MagSafe oferece proteção e personalização para seu iPhone 17 Pro.",
+    "preco": 719
+  }
+]

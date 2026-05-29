@@ -1,4 +1,10 @@
-{
-  "nome": "Eletrônicos",
-  "descricao": "Dispositivos eletrônicos e gadgets"
-}
+[
+  {
+    "nome": "iPhone",
+    "descricao": "Motivos para comprar seu iPhone na Apple."
+  },
+  {
+    "nome": "Acessórios",
+    "descricao": "Os acessórios que você adora em novas cores e texturas."
+  }
+]

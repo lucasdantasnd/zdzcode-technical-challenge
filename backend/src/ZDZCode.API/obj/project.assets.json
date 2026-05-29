@@ -15,6 +15,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/9.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.17"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
@@ -644,6 +663,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.OpenApi/1.6.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Mono.TextTemplating/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -692,6 +724,22 @@
             "related": ".xml"
           }
         }
+      },
+      "Scalar.AspNetCore/2.14.14": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.CodeDom/6.0.0": {
         "type": "package",
@@ -974,6 +1022,22 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.OpenApi/9.0.5": {
+      "sha512": "yZLOciYlpaOO/mHPOpgeSZTv8Lc7fOOVX40eWJJoGs/S9Ny9CymDuKKQofGE9stXGGM9EEnnuPeq0fhR8kdFfg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/9.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -2405,6 +2469,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.OpenApi/1.6.17": {
+      "sha512": "Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.17.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
     "Mono.TextTemplating/3.0.0": {
       "sha512": "YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "type": "package",
@@ -2452,6 +2531,25 @@
         "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "Scalar.AspNetCore/2.14.14": {
+      "sha512": "xNa3MadDudKk7y+0gQPBQihVL+JxGP3KNZHB4Zl2W42ATFIffHHHBjsuyKJ4YPUnnA7NUiHR/diqV/FTZC9dkg==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.14.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0/Scalar.AspNetCore.dll",
+        "lib/net10.0/Scalar.AspNetCore.xml",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.14.14.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
       ]
     },
     "System.CodeDom/6.0.0": {
@@ -2860,32 +2958,34 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Microsoft.AspNetCore.OpenApi >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4",
+      "Scalar.AspNetCore >= 2.14.14",
       "ZDZCode.Application >= 1.0.0",
       "ZDZCode.Domain >= 1.0.0",
       "ZDZCode.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas Dantas\\.nuget\\packages\\": {},
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
+      "projectUniqueName": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
       "projectName": "ZDZCode.API",
-      "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
-      "packagesPath": "C:\\Users\\Lucas Dantas\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\obj\\",
+      "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lucas Dantas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2895,7 +2995,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://build.bompracredito.com.br/httpAuth/app/nuget/feed/_Root/default/v2": {},
         "https://nuget.pkg.github.com/BomPraCredito/index.json": {}
       },
       "frameworks": {
@@ -2903,14 +3002,14 @@
           "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj": {
-              "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj"
+            "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj": {
+              "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj"
             },
-            "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
-              "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
+            "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
+              "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
             },
-            "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj": {
-              "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj"
+            "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj": {
+              "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj"
             }
           }
         }
@@ -2932,6 +3031,10 @@
         "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -2947,6 +3050,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[9.0.4, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.14.14, )"
           }
         },
         "imports": [

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj": {}
+    "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj": {}
   },
   "projects": {
-    "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj": {
+    "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
+        "projectUniqueName": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
         "projectName": "ZDZCode.API",
-        "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
-        "packagesPath": "C:\\Users\\Lucas Dantas\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\obj\\",
+        "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\ZDZCode.API.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucas Dantas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://build.bompracredito.com.br/httpAuth/app/nuget/feed/_Root/default/v2": {},
           "https://nuget.pkg.github.com/BomPraCredito/index.json": {}
         },
         "frameworks": {
@@ -35,14 +34,14 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj": {
-                "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj"
+              "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj": {
+                "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj"
               },
-              "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
-                "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
+              "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
+                "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
               },
-              "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj": {
-                "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj"
+              "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj": {
+                "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj"
               }
             }
           }
@@ -64,6 +63,10 @@
           "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -79,6 +82,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.14.14, )"
             }
           },
           "imports": [
@@ -104,20 +111,20 @@
         }
       }
     },
-    "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj": {
+    "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj",
+        "projectUniqueName": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj",
         "projectName": "ZDZCode.Application",
-        "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj",
-        "packagesPath": "C:\\Users\\Lucas Dantas\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\obj\\",
+        "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\ZDZCode.Application.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucas Dantas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -127,7 +134,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://build.bompracredito.com.br/httpAuth/app/nuget/feed/_Root/default/v2": {},
           "https://nuget.pkg.github.com/BomPraCredito/index.json": {}
         },
         "frameworks": {
@@ -135,8 +141,8 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
-                "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
+              "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
+                "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
               }
             }
           }
@@ -177,20 +183,20 @@
         }
       }
     },
-    "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
+    "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj",
+        "projectUniqueName": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj",
         "projectName": "ZDZCode.Domain",
-        "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj",
-        "packagesPath": "C:\\Users\\Lucas Dantas\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\obj\\",
+        "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucas Dantas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -200,7 +206,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://build.bompracredito.com.br/httpAuth/app/nuget/feed/_Root/default/v2": {},
           "https://nuget.pkg.github.com/BomPraCredito/index.json": {}
         },
         "frameworks": {
@@ -246,20 +251,20 @@
         }
       }
     },
-    "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj": {
+    "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj",
         "projectName": "ZDZCode.Infrastructure",
-        "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Lucas Dantas\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\obj\\",
+        "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\ZDZCode.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucas Dantas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -269,7 +274,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://build.bompracredito.com.br/httpAuth/app/nuget/feed/_Root/default/v2": {},
           "https://nuget.pkg.github.com/BomPraCredito/index.json": {}
         },
         "frameworks": {
@@ -277,8 +281,8 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
-                "projectPath": "C:\\Workspaces\\ZDZCloud\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
+              "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj": {
+                "projectPath": "C:\\Workspaces\\ZDZcode\\zdzcode-technical-challenge\\backend\\src\\ZDZCode.Domain\\ZDZCode.Domain.csproj"
               }
             }
           }
