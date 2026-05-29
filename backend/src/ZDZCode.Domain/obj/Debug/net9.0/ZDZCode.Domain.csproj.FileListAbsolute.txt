@@ -1,0 +1,11 @@
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\bin\Debug\net9.0\ZDZCode.Domain.deps.json
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\bin\Debug\net9.0\ZDZCode.Domain.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\bin\Debug\net9.0\ZDZCode.Domain.pdb
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ZDZCode.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ZDZCode.Domain.AssemblyInfoInputs.cache
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ZDZCode.Domain.AssemblyInfo.cs
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ZDZCode.Domain.csproj.CoreCompileInputs.cache
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ZDZCode.Domain.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\refint\ZDZCode.Domain.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ZDZCode.Domain.pdb
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Domain\obj\Debug\net9.0\ref\ZDZCode.Domain.dll

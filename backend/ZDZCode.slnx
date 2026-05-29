@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ZDZCode.API/ZDZCode.API.csproj" />
+    <Project Path="src/ZDZCode.Application/ZDZCode.Application.csproj" />
+    <Project Path="src/ZDZCode.Domain/ZDZCode.Domain.csproj" />
+    <Project Path="src/ZDZCode.Infrastructure/ZDZCode.Infrastructure.csproj" />
+  </Folder>
+</Solution>

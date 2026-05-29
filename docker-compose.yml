@@ -1,0 +1,48 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: zdzcode_postgres
+    environment:
+      POSTGRES_DB: zdzcode_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d zdzcode_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: src/ZDZCode.API/Dockerfile
+    container_name: zdzcode_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - AllowedOrigins__Nuxt=http://localhost:3000
+    ports:
+      - "5265:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: zdzcode_frontend
+    environment:
+      - NUXT_PUBLIC_API_BASE=http://localhost:5265
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    restart: always
+
+volumes:
+  pgdata:

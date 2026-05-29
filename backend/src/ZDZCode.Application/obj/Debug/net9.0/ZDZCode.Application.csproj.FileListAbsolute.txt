@@ -1,0 +1,15 @@
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\bin\Debug\net9.0\ZDZCode.Application.deps.json
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\bin\Debug\net9.0\ZDZCode.Application.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\bin\Debug\net9.0\ZDZCode.Application.pdb
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\bin\Debug\net9.0\ZDZCode.Domain.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\bin\Debug\net9.0\ZDZCode.Domain.pdb
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.csproj.AssemblyReference.cache
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.AssemblyInfoInputs.cache
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.AssemblyInfo.cs
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.csproj.CoreCompileInputs.cache
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode..F25251C6.Up2Date
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\refint\ZDZCode.Application.dll
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ZDZCode.Application.pdb
+C:\Workspaces\ZDZCloud\zdzcode-technical-challenge\backend\src\ZDZCode.Application\obj\Debug\net9.0\ref\ZDZCode.Application.dll
